@@ -1,12 +1,20 @@
 Git à été crée par Linus Torvalds (Linux) Git est un modèle distribué
 Un commit est une suite de modification accompagné d'un message
+On peut faire un commit vide et on peut très bien ne pas mettre de messages.
+
+
 Un repository est un dossier de projet sur GITHUB
-Un clonage permet de récupérer un repository sur sa machine
-Un gist est une façon de partager son code
-Un remote c'est une autre machine ou service
+un clonage permet cloner un dépôt ou une partie d'un dépôt. Cela va créer un nouveau projet git (comme avec un git init), créer une remote (comme avec git remote) récupérer les objets git (comme avec git fetch), et mettre à jour le dossier qui contient git à un commit précis (comme avec git checkout)
+Un gist>est une façon de partager son code gist est un service de github comparable à pastbin mais avec de la gestion de version basé sur git.
+
+
+Une remote c'est une URI (une addresse) permettant d'accéder à dépôt distant.
 Origin c'est le remote par défaut
-Pour ignorer des fichiers de configurations par exemple crée un fichier .gitignore et indiquez dedans le nom des fichiers
-Pull request est processus qui consiste à proposer une suite de commits pour qu'ils soient acceptés dans un projet open source
+
+ fichier .gitignore et indiquez dedans le nom des fichiers
+ .gitignore permet de dire à git d'ignorer certain fichier ou dossier.
+ 
+Pull request  c'est un mécanisme propre à github ou d'autre outil de gestion de versions hébergé
 Fork permet de récupérer un repository sur GITHUB et de le mettre sur mon compte GITHUB
  
 # Création nouveau dossier de projet :
@@ -18,7 +26,7 @@ touch un_fichier.md
 git add un_fichier.md ((indexe le fichier pour le suivre))
 git commit ??? « Ajout de mon fichier »
 -a = ajoute tous les fichiers présent dans l'index au commit
--am = on à déjà fait un commit
+-am = applique les paramêtres a et m (ajout index et message)
 -m = message
 
 #Gestion du projet 
