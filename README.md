@@ -1,3 +1,6 @@
+
+ELÉMENTS REPRIS D'UNE CONTRIBUTION FORMUM
+
 Git à été crée par Linus Torvalds (Linux) Git est un modèle distribué
 Un commit est une suite de modification accompagné d'un message
 On peut faire un commit vide et on peut très bien ne pas mettre de messages.
